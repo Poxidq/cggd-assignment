@@ -35,3 +35,13 @@ cmake ..
 - [Cube model](https://casual-effects.com/g3d/data10/index.html#) by Morgan McGuire (CC BY 3.0 License)
 - [Teapot model](https://casual-effects.com/g3d/data10/common/model/teapot/teapot.zip) by Martin Newell (CC0 License)
 - [Dabrovic Sponza model](https://casual-effects.com/g3d/data10/index.html#) by Marko Dabrovic (CC BY-NC License)
+
+## Testing
+Build and go to `out\build\x64-Debug`, then run
+```
+.\Rasterization.exe --model_path=../../../models/cube.obj
+# or
+.\Rasterization.exe --model_path=../../../models/z_test.obj
+```
+
+![z_test image](image.png)
