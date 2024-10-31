@@ -44,4 +44,8 @@ Build and go to `out\build\x64-Debug`, then run
 .\Rasterization.exe --model_path=../../../models/z_test.obj
 ```
 
+# Rasterization
 ![z_test image](image.png)
+
+# Raytracing
+![raytracer image](raytracer_screen.jpg)
